@@ -23,8 +23,9 @@ public class OauthServerController {
         String message="";
         HashMap<Object,Object> a=null;
         long total=0;
-        String data="code";
-        return  ApiResult.buildSuccessApiResult(code,message,redisTemplate.hasKey("name")?"":redisTemplate.opsForValue().get("name").toString(),total);
+        String data="dadsadsad";
+
+        return  ApiResult.buildSuccessApiResult(code,message,data,total);
     }
 
 }
